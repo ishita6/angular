@@ -1,9 +1,11 @@
 .navbar-light .navbar-nav .nav-link
 {
-    color: var(--secondary-color);
+    color:#B85042;
+
 }
 .navbar-light .navbar-nav .nav-link.active-link
 {
-    color: var(--primary-color);
+    color:#B85042 ;
     text-decoration: underline;
 }
+

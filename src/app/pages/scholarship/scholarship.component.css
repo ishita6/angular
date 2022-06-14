@@ -2,28 +2,23 @@
 .jobBox
 {
     padding: 10px 10px;
-    height: auto;
-    width: auto;
+    display:block;
+    width: 100%;
+    border-radius: 25px;
+    height: 500px;
 } 
 .jobBox:hover{
-    background-color:rgb(133, 222, 133);
-    border-radius: 25px;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-color:#E7E8D1;
 }
 .jobBox h1 
 {
-    font-size: 18px;
+    font-size: 21px;
     margin-top: 20px;
     font-weight: bold;
+    color: #B85042;
 }
-.buybtn
-{
-
-    color: #000;
-    background-color: var(--primary-color);
-    padding: 10px 10px;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
+.heading{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
 }

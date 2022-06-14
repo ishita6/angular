@@ -33,7 +33,6 @@ import { scholarshipComponent } from './pages/scholarship/scholarship.component'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
