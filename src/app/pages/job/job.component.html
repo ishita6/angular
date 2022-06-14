@@ -1,0 +1,22 @@
+<div class="container mt-5 mb-5">
+
+    <div class="row">
+
+        <div class="col-lg-4" *ngFor="let fd of jobData">
+
+            <div class="jobBox mt-3 mb-3">
+                <img src="{{fd.JobImg}}">
+                <h1>{{fd.JobName}}</h1>
+                <p>{{fd.JobDetails}}</p>
+                <p>{{fd.Jobexperience }}</p>
+                <br/>
+                <a class="buybtn" [routerLink]="['/Jobs',fd.id]">Apply Now &nbsp;<i class="bi bi-bag"></i></a>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+</div>
