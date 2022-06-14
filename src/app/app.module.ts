@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {HttpClientModule} from '@angular/common/http'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +12,9 @@ import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { jobpageComponent } from './pages/jobpage/jobpage.component';
 
+import { scholarshipPageComponent } from './pages/scholarshipPage/scholarshipPage.component';
+import { scholarshipComponent } from './pages/scholarship/scholarship.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,13 +22,18 @@ import { jobpageComponent } from './pages/jobpage/jobpage.component';
     FooterComponent,
     HomeComponent,
     jobComponent,
+
+    scholarshipComponent,
+    scholarshipPageComponent,
+    
     AboutComponent,
     ContactComponent,
     jobpageComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
