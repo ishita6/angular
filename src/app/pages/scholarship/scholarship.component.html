@@ -5,12 +5,15 @@
         <div class="col-lg-4" *ngFor="let fd of scholarshipData">
 
             <div class="jobBox mt-3 mb-3">
-                <img src="{{fd.JobImg}}">
-                <h1>{{fd.JobName}}</h1>
-                <p>{{fd.JobDetails}}</p>
-                <p>{{fd.Jobexperience }}</p>
+                <!-- <img src="{{fd.JobImg}}"> -->
+                <h1>{{fd.name}}</h1>
+                <p>{{fd.description}}</p>
+                <p>{{fd.openTo }}</p>
+                <p>{{fd.Length }}</p>
+                <p>{{fd.Period }}</p>
+                <p>{{fd.Link }}</p>
                 <br/>
-                <a class="buybtn" [routerLink]="['/scholarships', fd.id]">Apply Now &nbsp;<i class="bi bi-bag"></i></a>
+                <a [routerLink]="['/scholarships', fd.id]"></a>
             </div>
 
         </div>
