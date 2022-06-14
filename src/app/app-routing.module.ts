@@ -11,6 +11,7 @@ const routes: Routes = [
   {path:'job',component:jobComponent},
   {path:'intern',component:jobComponent},
   {path:'admission',component:jobComponent},
+  {path:'scholarship',component:jobComponent},
   {path:'job/:id',component:jobpageComponent},
   {path:'about',component:AboutComponent},
   {path:'contact',component:ContactComponent}
