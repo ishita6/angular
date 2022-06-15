@@ -1,11 +1,10 @@
 .banner
 {
     /* background-image: url('../../../assets/img/bg.png'); */
-    height: 700px;
+    height: 500px;
     background-position: center top;
     background-size: cover;
 }
-
 
 .content
 {
@@ -13,12 +12,16 @@
     left: 20%;
     position: absolute;
 }
+
+
 .content h1 
 {
     /* color:#317773; */
     color:#B85042;
-    font-size: 60px;
+    font-size: 3rem;
     font-weight: bold;
+    line-height: 6vh;
+
 }
 
 .content a 
@@ -35,6 +38,10 @@
     background-color:#fff;
     color:#317773;
     background-color: #fff;
+}
+
+.text-center{
+    font-size: 40px;
 }
 
 .stepBox 
@@ -55,6 +62,7 @@
     font-size: 20px;
     font-style: italic;
     color: #fff;
+    height: 50px;
 }
 .highlight
 {

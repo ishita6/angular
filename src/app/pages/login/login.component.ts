@@ -3,23 +3,27 @@ import { FormControl, FormGroup, Validators } from "@angular/forms";
 
 @Component({
     selector: 'app-login',
-    templateUrl: './login.component.html',
+    templateUrl:'./login.component.html',
     styleUrls: ['./login.component.css']
 })
 
-export class loginComponent implements OnInit{
+export class LoginComponent implements OnInit{
 
         loginForm = new FormGroup({
-        email: new FormControl('', [Validators.required , Validators.email] ),
-        password: new FormControl('' , Validators.required),
-    })
+            email: new FormControl('', [Validators.required , Validators.email] ),
+            password: new FormControl('' , Validators.required),
+    });
+
     constructor() {}
 
-    ngOnInit(): void {
+    ngOnInit(): void {}
 
-        // get email(){
-        //     return this.loginForm.get('email');
-        // }
+        get email(){
+            return this.loginForm.get('email');
+        }
+        get password(){
+            return this.loginForm.get('password');
+        }
         
-    }
+    
 }

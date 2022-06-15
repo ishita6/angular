@@ -1,18 +1,21 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import {CommonModule} from '@angular/common'
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
 import { jobComponent } from './pages/job/job.component';
 import { jobpageComponent } from './pages/jobpage/jobpage.component';
-import { loginComponent } from './pages/login/login.component';
+import { LoginComponent } from './pages/login/login.component';
 import { scholarshipComponent } from './pages/scholarship/scholarship.component';
 import { scholarshipPageComponent } from './pages/scholarshipPage/scholarshipPage.component';
 import { SignUpComponent } from './pages/sign-up/sign-up.component';
 
 const routes: Routes = [
-  {path:'',component:HomeComponent},
-  {path:'login',component:loginComponent},
+  {path:'', pathMatch:'full' , component:HomeComponent},
+
+  {path:'login',component:LoginComponent},
+
   {path:'sign-up',component:SignUpComponent},
 
 
@@ -30,7 +33,9 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  declarations: [],
+  imports: [CommonModule,
+    RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

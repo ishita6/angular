@@ -15,7 +15,7 @@ import { jobpageComponent } from './pages/jobpage/jobpage.component';
 
 import { scholarshipPageComponent } from './pages/scholarshipPage/scholarshipPage.component';
 import { scholarshipComponent } from './pages/scholarship/scholarship.component';
-import{ loginComponent} from './pages/login/login.component';
+import{ LoginComponent} from './pages/login/login.component';
 import { SignUpComponent } from './pages/sign-up/sign-up.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -44,7 +44,7 @@ import { MatMenuModule } from '@angular/material/menu';
     FooterComponent,
     HomeComponent,
     jobComponent,
-    loginComponent,
+    LoginComponent,
     SignUpComponent,
 
     scholarshipComponent,

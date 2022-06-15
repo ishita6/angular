@@ -9,6 +9,10 @@
     text-decoration: underline;
 }
 
+.container-fluid{
+    color: #B85042;
+}
+
 mat-toolbar{
     margin:0;
    justify-content: center;

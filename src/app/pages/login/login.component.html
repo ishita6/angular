@@ -1,26 +1,23 @@
 
+<div class="form-container mat-elevation-z5">
+<h1 style="text-align:center ; color:#B85042">Login</h1>
+<form [formGroup]="loginForm">
+	<mat-form-field>
+		<input matInput placeholder="Email Address" formControlName = "email" />
+		<mat-error *ngIf="email?.errors?.['required']">Email is required
+		</mat-error>
+		<mat-error *ngIf="email?.errors?.['email']">Email is required
+		</mat-error>
+	</mat-form-field>
 
-
-<div class="container" onclick="onclick">
-	<div class="top"></div>
-	<div class="bottom"></div>
-	<div class="center">
-	  <h2>Please Sign In</h2>
-	  <form [formGroup] = "loginForm">
-	  <input type="email" formControlName="email" placeholder="email"/>
-	  <!-- <mat-error *ngIf= "email?error?.['required']">Email required
-	  </mat-error>
-	  <mat-error *ngIf= "email?error?.['email']">Email required
-	</mat-error> -->
-
-	  <input type="password" placeholder="password"/>
-	  <!-- <mat-error *ngIf= "password?error?.['required']">Email required
-	</mat-error>
-	<mat-error *ngIf= "password?error?.['password']">Email required
-  </mat-error> -->
-	  <button type="submit">Login</button>
-	  <span>New to our platform? <a routerLink="sign-up"> Sign Up!</a></span>
-	  </form>
-	  <h2>&nbsp;</h2>
+	<mat-form-field>
+		<input matInput placeholder="Password" formControlName = "password" type="password" />
+		<mat-error *ngIf="password?.errors?.['required']">Password is required
+		</mat-error>
+	</mat-form-field>
+	<div class="center margin-top">
+	<button class = "submit" mat-raised-button type="submit">Login</button><br>
 	</div>
-  </div>
+	<span class="center margin-top span" >New to our platform? <a  class = "sign-up link" routerLink="sign-up">Sign Up!</a></span>
+</form>
+</div>
