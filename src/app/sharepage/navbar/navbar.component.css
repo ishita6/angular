@@ -9,3 +9,20 @@
     text-decoration: underline;
 }
 
+mat-toolbar{
+    margin:0;
+   justify-content: center;
+}
+
+.login{
+    right:-200px;
+    position: relative;
+    padding: 9px 20px;
+    background-color: #B85042;
+    color: #E7E8D1;
+}
+
+.login:hover{
+    background-color: #E7E8D1;
+    color: #B85042;
+}
