@@ -1,28 +1,70 @@
-.navbar-light .navbar-nav .nav-link
-{
-    color:#B85042;
 
-}
-.navbar-light .navbar-nav .nav-link.active-link
-{
-    color:#B85042 ;
-    text-decoration: underline;
-}
-
-.container-fluid{
-    color: #B85042;
-}
-
-mat-toolbar{
+#menu ul{
+    list-style: none;
+    position: relative;
     margin:0;
-   justify-content: center;
+    padding: 0;
+    float: left;
+
 }
+
+#menu ul a{
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px 40px 15px 15px;
+    word-spacing: 13px;
+    display: block;
+    margin-top: 30px;
+}
+
+#menu ul li{
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li:hover{
+    background:
+}
+
+#menu ul ul{
+    position: absolute;
+    /* background: #fff; */
+    top:100%;
+    left:0;
+    display: none;
+}
+
+#menu ul ul li{
+    float: none;
+    width: 200px;
+    border-left: 3px solid #B85042;
+}
+
+#menu ul ul li:hover{
+    border-left: 3px solid #B85042;
+}
+
+#menu ul ul ul{
+    top: -4px;
+    left: 100%;
+}
+
+#menu ul li:hover > ul{
+    display: block;
+
+
+}
+
 
 .login{
     right:-200px;
     position: relative;
     padding: 9px 20px;
-    background-color: #B85042;
+    /* background-color: #B85042; */
+    background-color: rgb(103, 103, 239);
     color: #E7E8D1;
 }
 

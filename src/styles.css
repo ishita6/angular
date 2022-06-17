@@ -9,59 +9,8 @@ body
 {
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
-    /* background-color:#E2D1F9 ; */
-    background-color:#A7BEAE ;
+   
 
 }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-/* 
-.form-container{
-    display: block;
-    max-width: 500px;
-    height: 500px;
-    margin: auto;
-    padding: 48px;
-    background:#E7E8D1;
-    border-radius: 16px;
-  }
-  
-  .form-container mat-form-field{
-    width: 100%;
-    margin-top: 20px;
-    height: 80px;
-    text-decoration: underline;
-  }
-  
-  
-  .submit{
-  
-    background-color: #B85042;
-    color:#E7E8D1 ;
-    
-  }
-  
-  .sign-up link{
-    font-size: 1.2rem;
-    margin-left: 8px;
-  }
-  
-  .span{
-    margin-top: 60px;
-    cursor: pointer;
-    color: #3A6B35;
-  }
-  
-  .center{
-    display: flex;
-    justify-content: center;
-   
-  }
-  
-  .margin-top{
-    margin-top:16px ;
-  }
-  
-  .text-center{
-    text-align: center;
-  } */

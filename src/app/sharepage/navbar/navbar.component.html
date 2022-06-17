@@ -1,6 +1,8 @@
 
-<mat-toolbar> 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+<!-- <mat-toolbar>  -->
+  <div id="menu">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
     <div class="container-fluid">
       <a class="navbar-brand" routerLink="">MakeYourWay</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,36 +17,37 @@
           </li>
 
 
-
-          <!--  WOMEN JOBS JOBS JOBS -->
-
-          <li class="nav-item">
-            <a class="nav-link" routerLink="wSpecial" routerLinkActive="active-link">For Women</a>
-          </li>
-
-          <!-- JOBS JOBS JOBS -->
+            <!-- JOBS JOBS JOBS -->
 
           <li class="nav-item">
             <a class="nav-link" routerLink="job" routerLinkActive="active-link">Jobs</a>
-          </li>
+            <ul>
+              <li><a style= "font-size: 15px; color: #fff;" href="#">Location</a>
+                <ul>
+                  <li><a style= "font-size: 15px; color: #fff;" href="#">NCR</a></li>
+                  <li><a style= "font-size: 15px; color: #fff;" href="#">Mumbai</a>
+                </ul>
+              </li>
+              <li><a style= "font-size: 15px; color: #fff;" href="#">Field</a>
+            </ul>
+          </li> 
+
 
           <!-- INTERNSHIPS INTERNSHIPS INTERNSHIPS -->
 
           <li class="nav-item">
             <a class="nav-link" routerLink="intern" routerLinkActive="active-link">Internships</a>
-          </li>
-
-          <!-- ADMISSIONS ADMISSIONS ADMISSIONS -->
-
-          <li class="nav-item">
-            <a class="nav-link" routerLink="admission" routerLinkActive="active-link">Admissions</a>
-          </li>
+            <ul>
+              <li><a style= "font-size: 15px; color: #fff;" href="#">Web Development</a></li>
+              <li><a style= "font-size: 15px; color: #fff;" href="#">Python</a>
+              </ul>
+          </li> 
 
           <!-- SCHOLARSHIP  SCHOLARSHIP  SCHOLARSHIP -->
 
           <li class="nav-item">
             <a class="nav-link" routerLink="scholarship" routerLinkActive="active-link">Scholarship</a>
-          </li>
+          </li> 
 
           <!-- ABOUT ABOUT ABOUT -->
 
@@ -61,8 +64,9 @@
       </div>
     </div>
   </nav>
+  </div>
   <!-- login login login -->
 
-  <button class = "login" mat-button routerLink="login"  routerLinkActive="login-link" ><mat-icon>login</mat-icon>Login</button>
-
-  </mat-toolbar>
+  <!-- <button class = "login" mat-button routerLink="login"  routerLinkActive="login-link" ><mat-icon>login</mat-icon>Login</button> -->
+<!-- 
+  </mat-toolbar>  -->
