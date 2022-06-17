@@ -4,7 +4,7 @@
   <div id="menu">
     <nav class="navbar navbar-expand-lg navbar-light bg-light" >
     <div class="container-fluid">
-      <a class="navbar-brand" routerLink="">MakeYourWay</a>
+      <!-- <a class="navbar-brand" routerLink="">MakeYourWay</a> -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -12,8 +12,19 @@
 
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
+
+         
+            <a id="name" routerLink="">MakeYourWay</a>
+
+
           <li class="nav-item">
             <a class="nav-link" routerLink=""  routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" >Home</a>
+          </li>
+
+           <!-- ABOUT ABOUT ABOUT -->
+
+           <li class="nav-item">
+            <a class="nav-link" routerLink="about" routerLinkActive="active-link">About</a>
           </li>
 
 
@@ -49,17 +60,15 @@
             <a class="nav-link" routerLink="scholarship" routerLinkActive="active-link">Scholarship</a>
           </li> 
 
-          <!-- ABOUT ABOUT ABOUT -->
-
-          <li class="nav-item">
-            <a class="nav-link" routerLink="about" routerLinkActive="active-link">About</a>
-          </li>
-
           <!-- CONTACT CONTACT CONTACT  -->
 
           <li class="nav-item">
             <a class="nav-link" routerLink="contact" routerLinkActive="active-link">Contact</a>
           </li>
+            <button class = "login" style = "margin-top: 25px ;" mat-button routerLink="login"  routerLinkActive="login-link" ><mat-icon>login</mat-icon>Login</button>
+
+
+
         </ul>
       </div>
     </div>
@@ -70,3 +79,4 @@
   <!-- <button class = "login" mat-button routerLink="login"  routerLinkActive="login-link" ><mat-icon>login</mat-icon>Login</button> -->
 <!-- 
   </mat-toolbar>  -->
+

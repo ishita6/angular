@@ -1,4 +1,5 @@
 
+
 #menu ul{
     list-style: none;
     position: relative;
@@ -7,6 +8,8 @@
     float: left;
 
 }
+
+
 
 #menu ul a{
     color: black;
@@ -25,9 +28,6 @@
     padding: 0;
 }
 
-#menu ul li:hover{
-    background:
-}
 
 #menu ul ul{
     position: absolute;
@@ -54,21 +54,18 @@
 
 #menu ul li:hover > ul{
     display: block;
-
-
 }
-
-
 .login{
-    right:-200px;
-    position: relative;
-    padding: 9px 20px;
-    /* background-color: #B85042; */
-    background-color: rgb(103, 103, 239);
-    color: #E7E8D1;
+
+    margin-top: 20px;
+    /* padding: 0px 0px; */
+    font-size: 20px;
+    margin: 0px;
+    background-color: #7872f5;
+    color: #fff;
 }
 
 .login:hover{
-    background-color: #E7E8D1;
-    color: #B85042;
+    background-color: #fff;
+    color: #7872f5;
 }

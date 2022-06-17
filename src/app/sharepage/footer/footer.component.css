@@ -1,41 +1,107 @@
-
-.mat-
-.footer
-{
-    overflow: hidden;
-    position: sticky;
-    top: 100%;
-    background-color:#E7E8D1;
-    padding: 20px 10px;
+@media screen and (max-width:1024px) {
+    body{
+        background-size: cover;
+        /* background-size: 80%; */
+    }
 }
 
-h1
-{
-    font-weight: bold;
-    color: gray;
-    font-size: 20px;
-    cursor: pointer;
+
+*{
+    color: white;
 }
-h1:hover{
-    cursor: pointer;
+.text-off-white{
+    /* background-color: #111428; */
+    z-index: 9;
+    flex: 0 0 auto;
+    background: #111428;
+    padding: 30px 0;
+    font-size: 13px;
 }
-p 
-{
-    color: gray;
-    font-size: 15px;
+
+
+.membership-link{
+  background-color: #363940;
+  padding: 0.5rem 2rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-family: 'Rubik' sans-serif;
+  font-weight: 600;
 }
-a 
-{
-    color: gray;
+.membership-link:hover{
+  background-color: #32E0C4;
+  color: #212121;
+  text-decoration: none;
+}
+
+.cd{
+    text-align: center;
+  }
+
+  .text-off-white {
+    color:black;
+  }
+
+  .footer-top {
+    padding: 60px 0 35px;
+  }
+  
+  .footer-top .col-md-4 {
+    margin-bottom: 25px;
+  }
+  
+  .footer {
+    padding: 30px 0;
+  }
+  
+  .footer a {
     text-decoration: none;
-    padding: 0px 10px;
-    font-size: 17px;
-}
-a:hover 
-{
-    color:#B85042;
-}
-i 
-{
-    padding: 0px 10px;
-}
+  }
+  
+  /*Widget1: Useful Links*/
+  ul.imp-links {
+    margin-top: 15px;
+  }
+  
+  ul.imp-links li {
+    padding: 5px 0;
+  }
+  
+  ul.imp-links li a {
+    text-decoration: none;
+    color: white;
+  }
+  .imp-links a:hover{
+      color: #0D7377;
+  }
+  
+  /* ==== Start Footer ===== */
+  .media-icons{
+      margin-top: 1rem;
+  }
+  .media-icons a{
+      margin-right: 0.5rem;
+  }
+  .media-icons i{
+      font-size: 1.6rem;
+    color: black;
+  }
+  .media-icons i:hover{
+      color: #32E0C4;
+  }
+  .contact-email{
+      color: black;
+  }
+  .contact-email:hover{
+      color: #0D7377;
+      text-decoration: none;
+  }
+  /* ===== End footer ===== */
+
+  /* .navbar-fixed-top .container {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  } */
+  

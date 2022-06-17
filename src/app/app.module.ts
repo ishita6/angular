@@ -27,15 +27,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 
-// import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
-// import { environment } from '../environments/environment';
-// import { provideAuth, getAuth } from '@angular/fire/auth';
-// import { provideFirestore, getFirestore } from '@angular/fire/firestore';
-// import { HotToastModule } from '@ngneat/hot-toast';
-// import { LandingComponent } from './components/landing/landing.component';
+
 import { MatMenuModule } from '@angular/material/menu';
-// import { ProfileComponent } from './components/profile/profile.component';
-// import { getStorage, provideStorage } from '@angular/fire/storage';
 
 @NgModule({
   declarations: [
