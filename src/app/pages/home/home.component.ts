@@ -12,8 +12,11 @@ export class HomeComponent implements OnInit {
   constructor(private service:description, private services:scholarshipDesc ) { }
   jobData:any;
   scholarshipData:any;
+
+
   ngOnInit(): void {
     this.jobData = this.service.jobDetails;
     this.scholarshipData = this.services.scholarshipDetails;
+  
   }
 }

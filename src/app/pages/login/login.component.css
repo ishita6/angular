@@ -5,8 +5,9 @@
   height: 500px;
   margin: auto;
   padding: 48px;
-  background:#E7E8D1;
+  background:#e3e3e0;
   border-radius: 16px;
+  margin-top: 100px;
 }
 
 .form-container mat-form-field{

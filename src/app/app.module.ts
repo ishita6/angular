@@ -6,6 +6,7 @@ import {
  } from "igniteui-angular";
  import { NavbarComponent } from './sharepage/navbar/navbar.component';
  import { IgxDropDownModule } from 'igniteui-angular';
+ import { NgCircleProgressModule } from 'ng-circle-progress';
 
 
 
@@ -79,6 +80,14 @@ import { MatMenuModule } from '@angular/material/menu';
     // provideStorage(() => getStorage()),
     // HotToastModule.forRoot(),
     MatMenuModule,
+    NgCircleProgressModule.forRoot({
+      radius: 100,
+      outerStrokeWidth:16,
+      innerStrokeWidth: 8,
+      outerStrokeColor:"#78C000",
+      innerStrokeColor:"#C7E596",
+      animationDuration:300,
+    })
   ],
   providers: [],
   bootstrap: [AppComponent],

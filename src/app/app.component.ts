@@ -7,7 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
   animations: [slideInAnimation]
 })
+
 export class AppComponent {
   title = 'cloudWeb';
-
-  }
+  data = [];
+  
+}

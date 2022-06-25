@@ -11,12 +11,32 @@ body{
     line-height: 1.42857143;
 }
 
+/* HEADING START  */
+
+.clgLogo{
+    height: 60px;
+    
+}
+
+.akmLogo{
+    height: 60px;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.dstLogo{
+    height: 60px;
+    float: right;
+    margin-right: 20px;
+
+}
+
 @media (max-width: 990px){
 #mainHeading {
     font-size: 16px;
 }
 }
-
 
 
 @media (max-width: 990px){
@@ -64,52 +84,26 @@ body{
     text-align: center;
 }
 
+/* HEADING END  */
 
- .socialMedia {
-    display: block;
-    margin: auto;
-    text-align: center;
-} 
 
-.clgLogo{
-    height: 60px;
-    
-}
-
-.akmLogo{
-    height: 60px;
-    float: left;
-    margin-left: 20px;
-
-}
-
-.dstLogo{
-    height: 60px;
-    float: right;
-    margin-right: 20px;
-
-}
-
-/* .logo{
-    background-color: #7872f5;
-} */
-
-.name{
+/* .name{
     margin-top: 17px;
     text-align: left;
-}
+} */
+
 #menu ul{
     list-style: none;
     position: relative;
     margin:0;
     padding: 0;
-    float: left;
+    /* float: left; */
 }
 
 #menu ul a{
     text-decoration: none;
     font-size: 22px;
-    padding: 10px 40px 15px 15px;
+    padding: 10px 80px 15px 35px;
     word-spacing: 13px;
     display: block;
     margin-top: 15px;
