@@ -1,11 +1,18 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { 
+	IgxButtonModule,
+	IgxToggleModule
+ } from "igniteui-angular";
+ import { NavbarComponent } from './sharepage/navbar/navbar.component';
+ import { IgxDropDownModule } from 'igniteui-angular';
+
+
 
 
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './sharepage/navbar/navbar.component';
 import { FooterComponent } from './sharepage/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { jobComponent } from './pages/job/job.component';
@@ -49,6 +56,10 @@ import { MatMenuModule } from '@angular/material/menu';
     SignUpComponent
   ],
   imports: [
+    IgxDropDownModule,
+    IgxButtonModule,
+	  IgxToggleModule,
+
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
@@ -70,6 +81,8 @@ import { MatMenuModule } from '@angular/material/menu';
     MatMenuModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [],
+  schemas: []
 })
 export class AppModule { }

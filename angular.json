@@ -6,9 +6,12 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "cloudkitchenweb": {
+    "angular": {
       "projectType": "application",
       "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        },
         "@schematics/angular:application": {
           "strict": true
         }
@@ -20,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/cloudkitchenweb",
+            "outputPath": "dist/angular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -72,10 +75,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "cloudkitchenweb:build:production"
+              "browserTarget": "angular:build:production"
             },
             "development": {
-              "browserTarget": "cloudkitchenweb:build:development"
+              "browserTarget": "angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +86,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "cloudkitchenweb:build"
+            "browserTarget": "angular:build"
           }
         },
         "test": {
@@ -106,5 +109,5 @@
       }
     }
   },
-  "defaultProject": "cloudkitchenweb"
+  "defaultProject": "angular"
 }

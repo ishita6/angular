@@ -1,5 +1,6 @@
 
 
+
 <div class="row" style="margin:0px; padding:5px 0px;">
 
   <div  style="padding:0px;">
@@ -15,6 +16,13 @@
     </div>
   </div>
 
+  <button class="button" igxButton="raised" [igxToggleAction]="dropdown"
+  [igxDropDownItemNavigation]="dropdown">Options</button>
+<igx-drop-down #dropdown>
+  <igx-drop-down-item *ngFor="let item of items">
+      {{ item.field }}
+  </igx-drop-down-item>
+</igx-drop-down>
 
 
 
