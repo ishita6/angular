@@ -28,26 +28,26 @@ body{
 
 
 @media (max-width: 990px){
-.logo img {
+.clgLogo img {
     height: 60px;
 }
 }
 
 .heading {
     display: inline-block;
-    font-size: 16px;
-    padding: 0px 10px;
+    font-size: 15px;
+    padding: 0px 5px;
     color: var(--main-color);
     font-weight: bolder;
     font-family: Times;
-    margin-top: 5px;
+    /* margin-top: 5px; */
 
 }
 
 #mainHeading {
     font-size: 26px;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 80px;
     margin-right: 10px;
     margin-bottom: 0px;
 }
@@ -56,6 +56,7 @@ body{
     /* margin-bottom: 1px; */
     color: black;
     text-align: center;
+    
 }
 
 #thirdHeading {
@@ -64,36 +65,34 @@ body{
 }
 
 
-
-
- /* .logo img {
-    display: block;
-    margin: auto;
-    padding: 0px 0px;
-    margin-right: 20px;
-    height: 85px;
-    width: auto;
-}
-
-img {
-    vertical-align: middle;
-    border: 0;
-} */
-
-/* .row {
-    margin-right: -15px;
-    margin-left: -15px;
-}
-  */
-
-
  .socialMedia {
     display: block;
     margin: auto;
     text-align: center;
 } 
 
+.clgLogo{
+    height: 60px;
+    
+}
 
+.akmLogo{
+    height: 60px;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.dstLogo{
+    height: 60px;
+    float: right;
+    margin-right: 20px;
+
+}
+
+/* .logo{
+    background-color: #7872f5;
+} */
 
 .name{
     margin-top: 17px;
