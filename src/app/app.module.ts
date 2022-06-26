@@ -8,9 +8,8 @@ import {
  import { IgxDropDownModule } from 'igniteui-angular';
  import { NgCircleProgressModule } from 'ng-circle-progress';
  import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
-
-
-
+ import{  MdbFormsModule} from 'mdb-angular-ui-kit/forms';
+ import{MdbRippleModule} from 'mdb-angular-ui-kit/ripple'
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -38,6 +37,7 @@ import { MatInputModule } from '@angular/material/input';
 
 
 import { MatMenuModule } from '@angular/material/menu';
+import { from } from 'rxjs';
 
 @NgModule({
   declarations: [
@@ -68,18 +68,14 @@ import { MatMenuModule } from '@angular/material/menu';
     AppRoutingModule,
     BrowserAnimationsModule,
     MdbCarouselModule,
+    MdbRippleModule,
+    MdbFormsModule,
 
- 
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
     MatFormFieldModule,
     MatInputModule,
-    // provideFirebaseApp(() => initializeApp(environment.firebase)),
-    // provideAuth(() => getAuth()),
-    // provideFirestore(() => getFirestore()),
-    // provideStorage(() => getStorage()),
-    // HotToastModule.forRoot(),
     MatMenuModule,
     NgCircleProgressModule.forRoot({
       radius: 100,

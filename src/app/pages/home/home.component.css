@@ -3,7 +3,7 @@
 /* HEADINGS */
 
 .homeHeading{
-    height: 500px;
+    height: 400px;
 }
 
 #thirdHeading {
@@ -57,11 +57,41 @@
 
     /* HEADINGS END */
 
-    /* STATS  START */
+/* button */
+.content
+{
+    text-align: center;
+}
+
+.apply{
+    background-color: rgb(233, 142, 142);
+}
+
+.content a 
+{
+    text-decoration: none;
+    background-color: #773131;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.content a:hover 
+{
+    background-color:#fff;
+    color:#773131;
+}
+
+.text-center{
+    font-size: 40px;
+}
+
+/* button end */
+
+/* STATS  START */
 
 #stats-info{
    display: flex;
-
 }
 
 hr{
@@ -75,16 +105,17 @@ hr{
     font-weight: 400;
     font-size: 2rem;
     height: 2vw;
-    color: #9a9a94;
+    color: #040404;
+    margin-top: 150px;
     
 }
   .circle-wrap {
     margin: 150px auto;
     width: 150px;
     height: 150px;
-    background: #fefcff;
+    background: #e5e2e6;
     border-radius: 50%;
-    border: 1px solid #cdcbd0;
+    border: 1px solid #c5c2ca;
     
   }
 
@@ -98,7 +129,7 @@ hr{
 
 .mask .fill {
   clip: rect(0px, 75px, 150px, 0px);
-  background-color: #227ded;
+  background-color: #702020;
   
 }
 
@@ -125,12 +156,12 @@ hr{
     width: 122px;
     height: 122px;
     border-radius: 50%;
-    background: #d2eaf1;
+    background: #dde2c3;
     line-height: 120px;
     text-align: center;
     margin-top: 14px;
     margin-left: 14px;
-    color: #1e51dc;
+    color: #692121;
     position: absolute;
     z-index: 100;
     font-weight: 700;
@@ -138,48 +169,6 @@ hr{
     
   }
 
-.content
-{
-    top: 36%;
-    left: 20%;
-    position: absolute;
-}
-
-.apply{
-    background-color: rgb(233, 142, 142);
-}
-
-
-.content h1 
-{
-    color:rgb(185, 37, 37);
-    font-size: 3rem;
-    padding-top: 1px;
-    letter-spacing: 2px;
-    line-height: 10vh;
-    font-family: Arial, Helvetica, sans-serif, sans-serif;
-
-}
-
-.content a 
-{
-    text-decoration: none;
-    background-color: #317773;
-    color: #fff;
-    padding: 15px 20px;
-    border-radius: 5px;
-}
-
-.content a:hover 
-{
-    background-color:#fff;
-    color:#317773;
-    background-color: #fff;
-}
-
-.text-center{
-    font-size: 40px;
-}
 
 .stepBox 
 {
