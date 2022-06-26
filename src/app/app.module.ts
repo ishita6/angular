@@ -7,6 +7,7 @@ import {
  import { NavbarComponent } from './sharepage/navbar/navbar.component';
  import { IgxDropDownModule } from 'igniteui-angular';
  import { NgCircleProgressModule } from 'ng-circle-progress';
+ import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
 
 
 
@@ -66,7 +67,7 @@ import { MatMenuModule } from '@angular/material/menu';
     ReactiveFormsModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    // MatFormFieldModule
+    MdbCarouselModule,
 
  
     MatToolbarModule,
