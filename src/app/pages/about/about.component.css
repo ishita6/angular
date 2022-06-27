@@ -1,8 +1,19 @@
+
+
 .about{
     font-size: 15px;
     letter-spacing: 2px;
     line-height: 25px;
     font-family: 'Lobster', cursive;
-font-family: 'Mukta', sans-serif;
-font-family: 'PT Serif', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+    
 }
+
+@media (max-width: 990px){
+    .about {
+        font-size: 15px;
+        text-align: center;
+        left: 15%;
+    }
+    }

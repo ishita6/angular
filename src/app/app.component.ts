@@ -1,5 +1,6 @@
 import { slideInAnimation } from './app.animation';
 import { Component } from '@angular/core';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-root',
@@ -11,5 +12,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'cloudWeb';
   data = [];
+
+  ngOnInit(){
+    AOS.init();
+  }
   
 }

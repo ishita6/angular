@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { description } from 'src/app/services/description';
 import { scholarshipDesc } from 'src/app/services/scholarshipDesc';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-home',
@@ -14,7 +15,10 @@ export class HomeComponent implements OnInit {
   scholarshipData:any;
 
 
-  ngOnInit(): void {
+  ngOnInit(){
+    AOS.init({
+      duration:1500
+    });
     this.jobData = this.service.jobDetails;
     this.scholarshipData = this.services.scholarshipDetails;
   
