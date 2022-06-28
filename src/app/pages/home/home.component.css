@@ -165,7 +165,7 @@ a.rotate-box-2:hover {
     letter-spacing: 2px;
     line-height: 10vh;
     font-family: 'Lobster', cursive;
-    top: 46%;
+    top: 40%;
     left: 25%;
     position:absolute;
 }
@@ -180,7 +180,7 @@ a.rotate-box-2:hover {
     margin-top: 30px;
     letter-spacing: 2px;
     line-height: 4vh;
-    top: 56%;
+    top: 50%;
     left: 25%;
     position: absolute;
 
@@ -192,6 +192,7 @@ a.rotate-box-2:hover {
         font-size: 35px;
         text-align: center;
         left: 15%;
+        top: 55%;
     }
     }
 
@@ -201,11 +202,12 @@ a.rotate-box-2:hover {
         font-size: 20px;
         text-align: center;
         left: 10%;
+        top: 65%;
     }
     }
 
 .home-img{
-    height: 77vh;
+    height: 87vh;
     width: 100%;
 }
 
@@ -232,7 +234,7 @@ a.rotate-box-2:hover {
 
 .content a:hover 
 {
-    background-color:#fff;
+    background-color:rgb(226, 226, 171);
     color:#773131;
 }
 
@@ -252,6 +254,7 @@ a.rotate-box-2:hover {
   margin-top: 150px;
 } */
 
+
 hr{
     border:none;
     border-top:1px solid;
@@ -264,9 +267,11 @@ hr{
     font-size: 2rem;
     height: 2vw;
     color: #040404;
-    margin-top: 200px;
+    margin-top: 20rem;
     
 }
+
+
   .circle-wrap {
     margin: 150px auto;
     width: 150px;
@@ -390,12 +395,4 @@ hr{
 .viewmorebtn:hover{
     background-color: #fff;
     color: #B85042;
-}
-
-@media screen and (max-width:600px)
-{
-    .banner
-{
-    height: 700px;
-}
 }

@@ -1,0 +1,15 @@
+
+.contact{
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Lobster', cursive;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 5vh;
+}
+
+.row{
+   margin-top: 80px;
+    padding-left: 20rem;
+}

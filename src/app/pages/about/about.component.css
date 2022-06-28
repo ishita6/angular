@@ -1,19 +1,49 @@
-
-
+.abt-container{
+ background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
 .about{
-    font-size: 15px;
+    font-size: 16.5px;
+    font-weight: 500;
+    color: #9d0808;
     letter-spacing: 2px;
     line-height: 25px;
     font-family: 'Lobster', cursive;
     font-family: 'Mukta', sans-serif;
     font-family: 'PT Serif', serif;
     margin: 50px;
+   text-align: justify;
+   padding: 20px 35px;
+   border-radius: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.about:hover{
+    background-color: #8f7373;
+    color: #fff;
+    opacity: 0.6;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 @media (max-width: 990px){
     .about {
         font-size: 15px;
-        text-align: center;
+        /* text-align: center; */
         left: 15%;
     }
     }
+
+.d-block{
+    height:400px;
+    width:300px;
+}
+
+.text-center{
+    font-family: 'Lobster', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'PT Serif', serif;
+font-size: 2.3rem;
+font-weight: 500;
+}
