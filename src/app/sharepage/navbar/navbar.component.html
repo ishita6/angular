@@ -6,60 +6,289 @@
 
   <div  style="padding:0px;">
     <div class="logo">
-      <img class="clgLogo" src="../../../assets/img/clgLogo.png" />
+      <!-- <img class="clgLogo" src="../../../assets/img/clgLogo.png" /> -->
       <img class="akmLogo" src="../../../assets/img/akam_logo.png" />
       <img class="dstLogo" src="../../../assets/img/dst_logo.png" />
     </div>
 
     <div class="heading">
-
-  
-      <div id="mainHeading">Indira Gandhi Delhi Technical University For Women</div>
+      <div id="mainHeading"><img class="clgLogo" src="../../../assets/img/clgLogo.png">Indira Gandhi Delhi Technical University For Women </div>
       <div id="secondHeading">(Established by Govt. of Delhi vide Act 9 of 2012)</div>
       <div id="thirdHeading">ISO 9001:2015 Certified University</div>
       <br>
   </div>
 
   <!-- HEADING END -->
+
+  <nav>
+    <div class="wrapper">
+        <input type="radio" name="slider" id="menu-btn">
+        <input type="radio" name="slider" id="close-btn">
+        <ul class="nav-links">
+            <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+<!-- HOME -->
+            <li><a class="" routerLink=""  routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" >Home</a>
+            </li>
+<!-- HOME END -->
+
+<!-- ABOUT -->
+
+          <li >
+            <a  routerLink="about" routerLinkActive="active-link">About</a>
+          </li>
+
+<!-- ABOUT END -->
+
+<!-- ALL -->
+
+<li>
+  <a href="#" class="desktop-item"> All</a>
+  <input type="checkbox" id="showMega">
+  <label for="showMega" class="mobile-item">Mega Menu</label>
+  <div class="mega-box" >
+      <div class="content">
+          <div class="row">
+          </div>
+          <div class="row">
+              <header>Internships</header>
+              <ul class="mega-links">
+                  <li><a href="#">UI/UX</a></li>
+                  <li><a href="#">Website Design</a></li>
+                  <li><a href="#">App Development</a></li>
+                  <li><a href="#">Custom Logo</a></li>
+              </ul>
+          </div>
+          <div class="row">
+              <header>Scholarships</header>
+              <ul class="mega-links">
+                  <li><a href="#">Business Email</a></li>
+                  <li><a href="#">Personal Email</a></li>
+                  <li><a href="#">Mobile Email</a></li>
+                  <li><a href="#">Website Marketing</a></li>
+              </ul>
+          </div>
+          <div class="row">
+              <header>Jobs</header>
+              <ul class="mega-links">
+                  <li><a href="#">Website Hosting</a></li>
+                  <li><a href="#">Site Seal</a></li>
+                  <li><a href="#">Privacy Seal</a></li>
+                  <li><a href="#">Business Cards</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</li>
+
+<!-- ALL END -->
+
+<!-- JOBS -->
+      
+<li>
+  <a  routerLink="job" routerLinkActive="active-link" class="desktop-item"> Jobs</a>
+  <input type="checkbox" id="showMega">
+  <label for="showMega" class="mobile-item">Mega Menu</label>
+  <div class="mega-box" >
+      <div class="content">
+          <div class="row">
+            <img src="../../../assets/img/jobs.jpeg" alt="">
+          </div>
+          <div class="row" >
+              <header>Location</header>
+              <ul class="mega-links">
+                  <li><a href="#">Delhi</a></li>
+                  <li><a href="#">Bangalore</a></li>
+                  <li><a href="#">Hyderabad</a></li>
+                  <li><a href="#">Noida</a></li>
+                  <li><a href="#">View More</a></li>
+              </ul>
+          </div>
+
+          <div class="row">
+              <header>Field</header>
+              <ul class="mega-links">
+                  <li><a href="#">Full stack Development</a></li>
+                  <li><a href="#">Personal Branding</a></li>
+                  <li><a href="#">Android Developer</a></li>
+                  <li><a href="#">IOS Developer</a></li>
+                  <li><a href="#">View More</a></li>
+              </ul>
+          </div>
+
+          <div class="row" >
+            <header>Experience Level</header>
+            <ul class="mega-links">
+                <li><a href="#">Fresher</a></li>
+                <li><a href="#">0-5 yr</a></li>
+                <li><a href="#">5-10 yr</a></li>
+                <li><a href="#">10-15 yr</a></li>
+                <li><a href="#">View More</a></li>
+            </ul>
+        </div>
+
+      </div>
+  </div>
+</li>
+<!-- JOBS END -->
+
+<!-- Internships  -->
+
+<li>
+  <a  routerLink="job" routerLinkActive="active-link" class="desktop-item">Internships</a>
+  <input type="checkbox" id="showMega">
+  <label for="showMega" class="mobile-item">Mega Menu</label>
+  <div class="mega-box">
+      <div class="content">
+          <div class="row">
+              <img src="../../../assets/img/intern.jpeg" alt="">
+          </div>
+          <div class="row">
+              <header>Undergraduate</header>
+              <ul class="mega-links">
+                  <li><a href="#">UI/UX</a></li>
+                  <li><a href="#">Website Design</a></li>
+                  <li><a href="#">App Development</a></li>
+                  <li><a href="#">Custom Logo</a></li>
+                  <li><a href="#">View More</a></li>
+              </ul>
+          </div>
+          <div class="row">
+            <header>Postgraduate</header>
+            <ul class="mega-links">
+                <li><a href="#">UI/UX</a></li>
+                <li><a href="#">Website Design</a></li>
+                <li><a href="#">App Development</a></li>
+                <li><a href="#">Custom Logo</a></li>
+                <li><a href="#">View More</a></li>
+            </ul>
+        </div>
+          <div class="row">
+              <header>STEM</header>
+              <ul class="mega-links">
+                  <li><a href="#">Business Email</a></li>
+                  <li><a href="#">Personal Email</a></li>
+                  <li><a href="#">Mobile Email</a></li>
+                  <li><a href="#">Website Marketing</a></li>
+                  <li><a href="#">View More</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</li>
+
+<!-- Internships END -->
+
+<!-- Scholarships  -->
+
+<li>
+  <a  routerLink="job" routerLinkActive="active-link" class="desktop-item">Scholarships</a>
+  <input type="checkbox" id="showMega">
+  <label for="showMega" class="mobile-item">Mega Menu</label>
+  <div class="mega-box" >
+      <div class="content">
+          <div class="row">
+              <img src="../../../assets/img/scholarships.jpeg" alt="">
+          </div>
+          <div class="row">
+              <header>Undergraduate</header>
+              <ul class="mega-links">
+                  <li><a href="#">UI/UX</a></li>
+                  <li><a href="#">Website Design</a></li>
+                  <li><a href="#">App Development</a></li>
+                  <li><a href="#">Custom Logo</a></li>
+                  <li><a href="#">View More</a></li>
+              </ul>
+          </div>
+          <div class="row">
+            <header>STEM</header>
+            <ul class="mega-links">
+                <li><a href="#">Business Email</a></li>
+                <li><a href="#">Personal Email</a></li>
+                <li><a href="#">Mobile Email</a></li>
+                <li><a href="#">Website Marketing</a></li>
+                <li><a href="#">View More</a></li>
+            </ul>
+        </div>
+          <div class="row">
+              <header>Postgraduate</header>
+              <ul class="mega-links">
+                  <li><a href="#">Business Email</a></li>
+                  <li><a href="#">Personal Email</a></li>
+                  <li><a href="#">Mobile Email</a></li>
+                  <li><a href="#">Website Marketing</a></li>
+                  <li><a href="#">View More</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</li>
+
+<!-- Scholarships END -->
+
+<!-- Useful Links  -->
+            <li>
+                    <a href="#" class="desktop-item">Useful Links</a>
+                    <input type="checkbox" id="showDrop">
+                    <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+                    <ul class="drop-menu">
+                        <li><a href="#">Drop menu 1</a></li>
+                        <li><a href="#">Drop menu 2</a></li>
+                        <li><a href="#">Drop menu 3</a></li>
+                        <li><a href="#">Drop menu 4</a></li>
+                    </ul>
+                </li>
+                <li><a routerLink="contact" routerLinkActive="active-link">Contact</a></li>
+        </ul>
+
+        <!-- <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label> -->
+    </div>
+</nav>
+<!-- Useful Links END -->
+
+
+
+  
   
 
 <!-- <mat-toolbar>  -->
-  <div id="menu">
+  <!-- <div id="menu"> -->
+
+    
     <!-- <a id="name" routerLink="">MakeYourWay</a> -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding-top:0px; padding-bottom:0px;"  >
-    <div class="container-fluid">
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding-top:0px; padding-bottom:0px;"  >
+    <div class="container-fluid"> -->
       <!-- <a class="navbar-brand" routerLink="">MakeYourWay</a> -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+      </button> -->
 
 
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+      <!-- <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto"> -->
 
       
             <!-- <h1 class="name" routerLink="">MakeYourWay</h1> -->
 
 
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" routerLink=""  routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" >Home</a>
-          </li>
+          </li> -->
 
           <!-- ABOUT ABOUT ABOUT -->
 
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" routerLink="about" routerLinkActive="active-link">About</a>
-          </li>
+          </li> -->
 
            <!-- ALL ALL ALL -->
 
-           <li class="nav-item">
+           <!-- <li class="nav-item">
             <a class="nav-link" routerLink="about" routerLinkActive="active-link">All</a>
-          </li>
+          </li> -->
 
 
             <!-- JOBS JOBS JOBS -->
-
+<!-- 
           <li class="nav-item">
             <a class="nav-link" routerLink="job" routerLinkActive="active-link">Jobs</a>
             <ul>
@@ -71,28 +300,28 @@
               </li>
               <li><a style= "font-size: 15px;" href="#">Field</a>
             </ul>
-          </li> 
+          </li>  -->
 
 
           <!-- INTERNSHIPS INTERNSHIPS INTERNSHIPS -->
-
+<!-- 
           <li class="nav-item">
             <a class="nav-link" routerLink="intern" routerLinkActive="active-link">Internships</a>
             <ul>
               <li><a style= "font-size: 15px;" href="#">Web Development</a></li>
               <li><a style= "font-size: 15px;" href="#">Python</a>
               </ul>
-          </li> 
+          </li>  -->
 
           <!-- SCHOLARSHIP  SCHOLARSHIP  SCHOLARSHIP -->
 
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" routerLink="scholarship" routerLinkActive="active-link">Scholarship</a>
-          </li> 
+          </li>  -->
 
           <!-- CONTACT CONTACT CONTACT  -->
 
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" routerLink="contact" routerLinkActive="active-link">Contact</a>
           </li>
             <button class = "login" style = "margin-top: 10px ;" mat-button routerLink="login"  routerLinkActive="login-link" ><mat-icon>login</mat-icon>Login</button>
@@ -103,7 +332,7 @@
       </div>
     </div>
   </nav>
-  </div>
+  </div> -->
   <!-- login login login -->
 
   <!-- <button class = "login" mat-button routerLink="login"  routerLinkActive="login-link" ><mat-icon>login</mat-icon>Login</button> -->
