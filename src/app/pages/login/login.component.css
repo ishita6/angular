@@ -1,3 +1,14 @@
+.loginHeading{
+  font-size: 90px;
+  color: #B85042;
+  margin-top: 100px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'PT Serif', serif;
+}
 
 .form-container{
   display: block;
@@ -5,7 +16,7 @@
   height: 500px;
   margin: auto;
   padding: 48px;
-  background:#e3e3e0;
+  background:#d9d99b;
   border-radius: 16px;
   margin-top: 100px;
 }
