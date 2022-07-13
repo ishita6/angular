@@ -1,5 +1,7 @@
 
-
+.rotate-box-1-wrapper{
+  background-color: #edebd4;
+}
 /* Begin rotate box-1 */
 .rotate-box-1,
 .rotate-box-2 {
@@ -113,7 +115,8 @@ a.rotate-box-2:hover {
   padding-left: 60px;
 }
 .rotate-box-1-wrapper{
-  margin: 2rem auto;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
 }
 
 .rotate-box-1-wrapper .row{
@@ -250,10 +253,11 @@ a.rotate-box-2:hover {
    display: flex;
 }
 
-/* .stats-div{
-  margin-top: 150px;
-} */
 
+
+.stats-div{
+ background-color: #edebd4;
+}
 
 hr{
     border:none;
@@ -267,7 +271,7 @@ hr{
     font-size: 2rem;
     height: 2vw;
     color: #040404;
-    margin-top: 20rem;
+    margin-top: 10rem;
     
 }
 
